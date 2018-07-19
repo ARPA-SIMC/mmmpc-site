@@ -11,6 +11,12 @@ In entrambi i casi l'accesso avviene autenticandosi con le stesse
 credenziali già in uso per l'accesso [ftp](ftp) del cineca
 all'indirizzo ftp.meteo.cineca.it.
 
+I dati in arkimet/arkiweb sono raggruppati per *dataset* omogenei
+dove, tipicamente, un dataset è associato ad una configurazione
+specifica di una corsa modellistica. Alcuni dataset hanno anche un
+corrispondente [dataset di backup](dataset_backup.md) a cui si può
+ricorrere nel caso in cui il dataset principale non sia alimentato.
+
 ### Accesso interattivo
 
 Dalla [pagina arkiweb di accesso](https://lami.hpc.cineca.it/arkiweb) è

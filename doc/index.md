@@ -29,6 +29,13 @@ Il contenuto della parte pubblica di questo sito è coperto da licenza
 [Creative Commons Attribuzione - Non commerciale - Condividi allo
 stesso modo](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.it).
 
-![ cc-by-nc-sa](cc-by-nc-sa.png)
+![cc-by-nc-sa](img/cc-by-nc-sa.png)
 
 Questo sito non fa uso di cookie.
+
+### Vecchio sito wiki
+
+Il sito wiki MMMPC, che contiene le stesse informazioni del presente
+sito web, è ancora raggiungibile all'[indirizo
+diretto](https://lami.hpc.cineca.it/wiki/index.php/Modellistica_MeteoMarina_per_la_Protezione_Civile),
+ma il suo contenuto non è aggiornato e sara dismesso a breve.
