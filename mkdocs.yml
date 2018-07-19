@@ -1,0 +1,25 @@
+docs_dir: ./doc
+google_analytics: null
+site_name: MMMPC
+site_url: https://lami.hpc.cineca.it/mmmpc
+site_dir: _build/html
+theme: spacelab
+# [amelia|cyborg|cerulean|journal|readable|bootstrap|cosmo|united|mkdocs|spacelab|yeti|readthedocs|slate|simplex|flatly]
+pages:
+- Home: 'index.md'
+- Procedure operative:
+    - 'LAMI': 'LAMI.md'
+    - 'cosmo-5M': 'cosmo-5M.md'
+    - 'cosmo-2I': 'cosmo-2I.md'
+- Accesso ai dati:
+    - 'ftp': 'ftp.md'
+    - 'arkiweb': 'arkiweb.md'
+- Dataset arkimet:
+    - 'cosmo_5M': 'cosmo_5M.md'
+    - 'cosmo_5M_itr': 'cosmo_5M_itr.md'
+    - 'cosmo_5M_vprof': 'cosmo_5M_vprof.md'
+    - 'cosmo_2I_assim': 'cosmo_2I_assim.md'
+    - 'cosmo_2I_fcast': 'cosmo_2I_fcast.md'
+    - 'cosmo_2I_fcruc': 'cosmo_2I_fcruc.md'
+    - 'cosmo_2I_radar': 'cosmo_2I_radar.md'
+
