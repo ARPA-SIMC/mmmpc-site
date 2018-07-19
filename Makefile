@@ -3,7 +3,7 @@
 build:
 	mkdocs build --clean --config-file ./mkdocs.yml
 
-serve:
+serve: build
 	mkdocs serve
 
 deploy: build
