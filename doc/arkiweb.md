@@ -77,7 +77,7 @@ per maggiori informazioni).
 
 Prima di scaricare i dati in maniera regolare e automatizzata, è
 opportuno accertarsi che siano già tutti disponibili, per evitare di
-scaricare pacchi dati parziali.
+scaricare blocchi di dati parziali.
 
 Al momento non è ancora attivo un sistema di segnalazione della
 disponibilità delle corse, ma è possibile controllare se i dati sono
