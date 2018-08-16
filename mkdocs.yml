@@ -11,6 +11,8 @@ pages:
     - 'LAMI': 'LAMI.md'
     - 'cosmo-5M': 'cosmo-5M.md'
     - 'cosmo-2I': 'cosmo-2I.md'
+    - 'moloch-2I': 'moloch-2I.md'
+    - 'MedItaRe': 'MedItaRe.md'
 - Accesso ai dati:
     - 'ftp': 'ftp.md'
     - 'arkiweb': 'arkiweb.md'
@@ -23,5 +25,9 @@ pages:
     - 'cosmo_2I_fcruc': 'cosmo_2I_fcruc.md'
     - 'cosmo_2I_fcens': 'cosmo_2I_fcens.md'
     - 'cosmo_2I_radar': 'cosmo_2I_radar.md'
+    - 'moloch_2I': 'moloch_2I.md'
+    - 'swanmed': 'swanmed.md'
+    - 'swanita': 'swanita.md'
+    - 'swanre': 'swanre.md'
     - 'dataset_backup': 'dataset_backup.md'
 
