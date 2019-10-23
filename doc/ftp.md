@@ -18,9 +18,6 @@ Il contenuto è lo stesso per tutti gli utenti, al momento. I caratteri
 `??` indicano l'ora del run, quindi `00` o `12`, ciascuna cartella
 contiene i file grib prodotti con cadenza oraria su due aree.
 
-Questi dati non sono al momento disponibili sul server
-[arkiweb](arkiweb) ma si conta di renderli disponibili in futuro.
-
 Le cartelle sopra indicate contengono dati su due diverse aree *med* e
 *ita*, descritte nella pagina specifica della procedura
 [cosmo-5M](cosmo-5M).

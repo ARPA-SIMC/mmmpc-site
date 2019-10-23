@@ -13,15 +13,15 @@ cadenza oraria su tre aree distinte:
 ### Area *med*
 
 È l'area di integrazione completa di cosmo-5M; il dataset scaricabile
-su quest'area include tutti i campi ritenuti utili per
-l'interfacciamento con modelli di onde e circolazione marina come
-vento e flussi superficiali più un insieme limitato di campi utili per
+via [ftp](ftp) su quest'area include tutti i campi ritenuti utili per
+l'interfacciamento con modelli di onde e circolazione marina, come
+vento e flussi superficiali, più un insieme limitato di campi utili per
 scopi di sala previsione, principalmente per una visualizzazione della
 situazione sinottica.
 
-Al momento i dati su quest'area sono disponibili solo via
-[ftp](ftp), a regime si conta di renderli disponibili anche
-via [arkiweb](arkiweb).
+Su [arkiweb](arkiweb), per quest'area, sono invece disponibili tutti i
+dati superficiali e in quota ai livelli nativi, ma non i dati a
+livelli isobarici.
 
 ### Area *ita*
 
