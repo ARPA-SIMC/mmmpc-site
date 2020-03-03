@@ -5,6 +5,8 @@ attraverso il protocollo ftp, nelle modalità in uso da tempo per LAMI,
 collegandosi al server ftp.meteo.cineca.it con username e password
 assegnati a ciascun Ente.
 
+### Dati in tempo reale
+
 La nuova procedura operativa a 5 km sul Mediterraneo denominata
 [cosmo-5M](cosmo-5M) è disponibile in uno o più dei path seguenti (il
 path esatto dipende dai permessi del singolo utente):
@@ -35,3 +37,14 @@ cartelle (il path esatto dipende dai permessi del singolo utente):
 Con significato dei simboli come sopra. Queste cartelle contengono una
 selezione "alleggerita" dei campi del modello su tutta l'area di
 integrazione.
+
+### Recupero corse pregresse
+
+Nel caso in cui vengano effettuati dei recuperi di corse pregresse che
+per qualche motivo non sono andate a buon fine nei tempi operativi,
+l'ultima corsa recuperata è normalmente scaricabile nella cartella
+`REC` con le relative sottocartelle, strutturate in maniera analoga a
+ciò che si trova sotto `PROD`.
+
+In questi casi viene normalmente inviata una comunicazione alla lista
+di distribuzione lm-USR.
