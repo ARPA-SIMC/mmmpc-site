@@ -7,4 +7,4 @@ serve: build
 	mkdocs serve
 
 deploy: build
-	rsync -ad _build/html/ lami:/arkimet/mmmpc
+	rsync -ad _build/html/ lami:/var/www/arkimet/mmmpc
