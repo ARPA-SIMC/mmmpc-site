@@ -41,10 +41,3 @@ termine della procedura, selezionare "Propose file change" oppure
 "Create a new branch for this commit and start a pull request" (quale
 delle due opzioni è proposta dipende dai permessi dell'utente). La
 modifica verrà presa in considerazione da Arpae-SIMC.
-
-### Vecchio sito wiki
-
-Il sito wiki MMMPC, che contiene le stesse informazioni del presente
-sito web, è ancora raggiungibile all'[indirizo
-diretto](https://lami.hpc.cineca.it/wiki/index.php/Modellistica_MeteoMarina_per_la_Protezione_Civile),
-ma il suo contenuto non è aggiornato e sara dismesso a breve.
