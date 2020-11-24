@@ -23,6 +23,7 @@ pages:
     - 'cosmo_2I_assim': 'cosmo_2I_assim.md'
     - 'cosmo_2I_fcast': 'cosmo_2I_fcast.md'
     - 'cosmo_2I_fcruc': 'cosmo_2I_fcruc.md'
+    - 'cosmo_2I_fcruc_vprof': 'cosmo_2I_fcruc_vprof.md'
     - 'cosmo_2I_fcens': 'cosmo_2I_fcens.md'
     - 'cosmo_2I_radar': 'cosmo_2I_radar.md'
     - 'moloch_2I': 'moloch_2I.md'

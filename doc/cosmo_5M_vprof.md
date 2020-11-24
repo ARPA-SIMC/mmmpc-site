@@ -33,31 +33,34 @@ Si riporta qui una bozza di programma python per la decodifica dei
 profili in formato json:
 
 ```python
+import sys
 import json
 import datetime
 
-fp = open("profilo.json")
 proflist = []
-for l in fp.readlines():
+for l in sys.stdin.readlines():
     proflist.append(json.loads(l))
-fp.close()
 
 # Ogni elemento della lista proflist contiene ora un profilo verticale
 # decodificato da json in un dizionario python
 # ciclo sui profili
 for prof in proflist:
-# estraggo temperatura, pressione e altezza (ottengo liste)
-    t = [l['vars']['B12101']['v'] for l in prof['data'][0:-1]]
-    p = [l['vars']['B10004']['v'] for l in prof['data'][0:-1]]
-    z = [l['vars']['B10007']['v'] for l in prof['data'][0:-1]]
-# data di validita'
+    t=[]; p=[]; z=[]
+    # ciclo sui livelli
+    # estraggo temperatura, pressione e altezza (ottengo liste)
+    for l in prof['data'][0:-1]:
+        if l.get("level") is not None: # controllo che non e' anagrafica
+            t.append(l['vars']['B12101']['v'])
+            p.append(l['vars']['B10004']['v'])
+            z.append(l['vars']['B10007']['v'])
+    # data di validita'
     date = prof['date']
-# data di validita' come oggetto python
+    # data di validita' come oggetto python
     pdate = datetime.datetime.strptime(prof['date'], "%Y-%m-%dT%H:%M:%SZ")
-# coordinate in 10^5 gradi
+    # coordinate in 10^5 gradi
     lon = prof['lon']
     lat = prof['lat']
-# coordinate reali in gradi
+    # coordinate reali in gradi
     rlon = float(prof['lon'])/1.E5
     rlat = float(prof['lat'])/1.E5
 ```

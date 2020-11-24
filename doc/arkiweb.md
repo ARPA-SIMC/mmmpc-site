@@ -55,8 +55,8 @@ curl -sgG \
  https://<user>:<password>@lami.hpc.cineca.it/services/arkiweb/data
 ```
 
-Per l'accesso al dataset dei profili verticali simulati,
-[cosmo_5M_vprof](cosmo_5M_vprof), che è archiviato in formato bufr, si
+Per l'accesso ai dataset dei profili verticali simulati, ad esempio
+[cosmo_5M_vprof](cosmo_5M_vprof), che sono archiviati in formato bufr, si
 consiglia il postprocessing json, che si attiva da script come
 nell'esempio seguente:
 
