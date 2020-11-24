@@ -1,7 +1,7 @@
 ## Dataset cosmo_2I_assim
 
 Il dataset arkimet cosmo_2I_assim contiene i dati prodotti dalla
-procedura operativa [cosmo-2I](cosmo-2I) durante la corsa di
+procedura operativa [cosmo-2I](cosmo-2I.md) durante la corsa di
 assimilazione effettuata con il sistema di analisi KENDA; esso
 contiene tutti i dati ai livelli nativi del modello, oltre ai dati
 superficiali, per la sola analisi deterministica. I dati alle ore 00,

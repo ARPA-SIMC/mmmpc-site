@@ -8,7 +8,7 @@ assegnati a ciascun Ente.
 ### Dati in tempo reale
 
 La nuova procedura operativa a 5 km sul Mediterraneo denominata
-[cosmo-5M](cosmo-5M) è disponibile in uno o più dei path seguenti (il
+[cosmo-5M](cosmo-5M.md) è disponibile in uno o più dei path seguenti (il
 path esatto dipende dai permessi del singolo utente):
 
 -   `/PROD/??-med_lm5`, `/PROD/??-ita_lm5`
@@ -22,10 +22,10 @@ contiene i file grib prodotti con cadenza oraria su due aree.
 
 Le cartelle sopra indicate contengono dati su due diverse aree *med* e
 *ita*, descritte nella pagina specifica della procedura
-[cosmo-5M](cosmo-5M).
+[cosmo-5M](cosmo-5M.md).
 
 La corsa previsionale bigiornaliera a 2,2 km di passo di griglia e 48
-ore di orizzonte temporale denominata [cosmo-2I](cosmo-2I) (che
+ore di orizzonte temporale denominata [cosmo-2I](cosmo-2I.md) (che
 sostituisce il tradizionale COSMO-I2 a 2,8 km) è disponibile nelle
 cartelle (il path esatto dipende dai permessi del singolo utente):
 

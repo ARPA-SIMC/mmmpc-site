@@ -7,7 +7,7 @@ Centri Funzionali di Protezione Civile e alla documentazione delle
 relative modalità di disseminazione dati.
 
 Buona parte delle procedure modellistiche indicate sono eseguite
-nell'ambito dell'accordo [LAMI](LAMI).
+nell'ambito dell'accordo [LAMI](LAMI.md).
 
 ### Collegamenti rapidi ad altre sezioni del sito
 

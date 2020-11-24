@@ -15,5 +15,5 @@ nazionale con condizioni al contorno del modello globale tedesco ICON.
 Le procedure girano sul sistema di calcolo interno di Arpae-SIMC.
 
 I dati di moloch-2I sono disponibili con cadenza oraria su tutta
-l'area di integrazione via [arkiweb](arkiweb), vedere la descrizione
-nella pagine relativa al dataset [moloch_2I](moloch_2I).
+l'area di integrazione via [arkiweb](arkiweb.md), vedere la descrizione
+nella pagine relativa al dataset [moloch_2I](moloch_2I.md).

@@ -2,7 +2,7 @@
 
 Il dataset arkimet cosmo_5M_vprof contiene contiene i profili
 verticali (i cosiddetti *radiosondaggi simulati*) prodotti dalla
-procedura operativa [cosmo-5M](cosmo-5M). Al momento contiene una
+procedura operativa [cosmo-5M](cosmo-5M.md). Al momento contiene una
 serie di profili su punti su cui venivano precedentemente prodotti i
 profili in formato testuale per diversi utenti, eventuali richieste di
 ulteriori profili possono essere indirizzate ad Arpae Emilia Romagna.
@@ -11,7 +11,7 @@ I profili sono archiviati nativamente in formato BUFR; il template
 usato per questi dati BUFR è un template locale definito dal software
 [DB-All.e](https://github.com/ARPA-SIMC/dballe), quindi difficilmente
 decodificabile con altri software generici per BUFR, si consiglia
-pertanto, in fase di estrazione da [arkiweb](arkiweb), di attivare
+pertanto, in fase di estrazione da [arkiweb](arkiweb.md), di attivare
 nella terza schermata il plugin di elaborazione **json** (variante
 Dballe JSON), in modo da ottenere i dati nel formato json che è
 decodificabile con librerie diffuse in vari linguaggi di

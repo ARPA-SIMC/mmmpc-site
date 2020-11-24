@@ -23,7 +23,7 @@ La procedura consiste di quattro fasi:
 
 Le condizioni al contorno provengono dal modello COSMO-ME-EPS a 7 km
 del Servizio Meteorologico dell'Aeronautica Militare per la fase di
-analisi e di previsione di ensemble e da [cosmo-5M](cosmo-5M) per le
+analisi e di previsione di ensemble e da [cosmo-5M](cosmo-5M.md) per le
 fasi di previsione.
 
 Il sistema di assimilazione LETKF/Kenda utilizza osservazioni
@@ -39,11 +39,11 @@ stimata sono derivati dal mosaico radar nazionale del Dipartimento di
 Protezione Civile.
 
 I dati delle tre suindicate fasi di cosmo-2I sono disponibili con
-cadenza oraria su tutta l'area di integrazione via [arkiweb](arkiweb),
+cadenza oraria su tutta l'area di integrazione via [arkiweb](arkiweb.md),
 vedere la descrizione nelle pagine relativa ai dataset
-[cosmo_2I_assim](cosmo_2I_assim), [cosmo_2I_fcruc](cosmo_2I_fcruc),
-[cosmo_2I_fcast](cosmo_2I_fcast) e [cosmo_2I_fcens](cosmo_2I_fcens). I
+[cosmo_2I_assim](cosmo_2I_assim.md), [cosmo_2I_fcruc](cosmo_2I_fcruc.md),
+[cosmo_2I_fcast](cosmo_2I_fcast.md) e [cosmo_2I_fcens](cosmo_2I_fcens.md). I
 dati delle corse a breve termine (+48 ore) sono disponibili anche via
 [ftp](ftp). I dati di stima di precipitazione radar del mosaico
 nazionale, interpolati sulla griglia di cosmo-2I, sono disponibili nel
-dataset [cosmo_2I_radar](cosmo_2I_radar).
+dataset [cosmo_2I_radar](cosmo_2I_radar.md).

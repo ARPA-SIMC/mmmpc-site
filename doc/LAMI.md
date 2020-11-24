@@ -6,8 +6,8 @@ dell’Aeronautica militare](http://www.meteoam.it/) e [Arpa
 Piemonte](http://www.arpa.piemonte.gov.it/) per lo sviluppo e la
 gestione operativa di procedure meteorologiche numeriche previsionali
 in Italia. Nell’ambito di LAMI, Arpae-SIMC gestisce le procedure
-operative meteorologiche denominate [cosmo-5M](cosmo-5M) e
-[cosmo-2I](cosmo-2I), che forniscono previsioni numeriche sull'area
+operative meteorologiche denominate [cosmo-5M](cosmo-5M.md) e
+[cosmo-2I](cosmo-2I.md), che forniscono previsioni numeriche sull'area
 del Mediterraneo e sul territorio nazionale con passo di griglia di 5
 e 2,2 km rispettivamente.
 

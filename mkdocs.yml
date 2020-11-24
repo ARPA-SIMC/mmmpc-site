@@ -4,15 +4,17 @@ site_name: MMMPC
 site_url: https://lami.hpc.cineca.it/mmmpc
 site_dir: _build/html
 theme: spacelab
+use_directory_urls: false
+strict: true
 # [amelia|cyborg|cerulean|journal|readable|bootstrap|cosmo|united|mkdocs|spacelab|yeti|readthedocs|slate|simplex|flatly]
-pages:
+nav:
 - Home: 'index.md'
 - Procedure operative:
-    - 'LAMI': 'LAMI.md'
-    - 'cosmo-5M': 'cosmo-5M.md'
-    - 'cosmo-2I': 'cosmo-2I.md'
-    - 'moloch-2I': 'moloch-2I.md'
-    - 'MedItaRe': 'MedItaRe.md'
+    - LAMI: 'LAMI.md'
+    - cosmo-5M: 'cosmo-5M.md'
+    - cosmo-2I: 'cosmo-2I.md'
+    - moloch-2I: 'moloch-2I.md'
+    - MedItaRe: 'MedItaRe.md'
 - Accesso ai dati:
     - 'ftp': 'ftp.md'
     - 'arkiweb': 'arkiweb.md'

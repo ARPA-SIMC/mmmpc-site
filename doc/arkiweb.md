@@ -8,7 +8,7 @@ l'accesso sia interattivo che automatizzato da script usando il
 comando [curl](https://curl.haxx.se).
 
 In entrambi i casi l'accesso avviene autenticandosi con le stesse
-credenziali già in uso per l'accesso [ftp](ftp) del cineca
+credenziali già in uso per l'accesso [ftp](ftp.md) del cineca
 all'indirizzo ftp.meteo.cineca.it.
 
 I dati in arkimet/arkiweb sono raggruppati per *dataset* omogenei
@@ -56,7 +56,7 @@ curl -sgG \
 ```
 
 Per l'accesso ai dataset dei profili verticali simulati, ad esempio
-[cosmo_5M_vprof](cosmo_5M_vprof), che sono archiviati in formato bufr, si
+[cosmo_5M_vprof](cosmo_5M_vprof.md), che sono archiviati in formato bufr, si
 consiglia il postprocessing json, che si attiva da script come
 nell'esempio seguente:
 
