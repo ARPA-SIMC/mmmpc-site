@@ -8,8 +8,8 @@ griglia di 2,2km.
 La procedura consiste di quattro fasi:
 
 - assimilazione dati quasi-continua con il sistema di analisi di
-  ensemble LETKF/Kenda, le analisi sono effettuate a intervalli di 3
-  ore (00, 03, 06 UTC etc.)
+  ensemble LETKF/Kenda, le analisi sono effettuate a intervalli di 1
+  ora (00, 01, 02 UTC etc.)
 - previsione a brevissimo termine effettuate a cadenza trioraria (00,
   03, 06 UTC etc.), con un orizzonte temporale di 18 ore (denominate
   anche RUC, Rapidly Updating Cycle)
@@ -29,7 +29,9 @@ fasi di previsione.
 Il sistema di assimilazione LETKF/Kenda utilizza osservazioni
 superficiali (SYNOP, SHIP, BUOY), radiosondaggi (TEMP) e osservazioni
 puntuali da aerei di linea (AMDAR, AIREP, ACARS) fornite dal Servizio
-Meteorologico dell’Aeronautica Militare.
+Meteorologico dell’Aeronautica Militare. Esso utilizza inoltre anche i
+volumi tridimensionali dei radar nazionali forniti dal Dipartimento di
+Protezione Civile.
 
 Le corse di ensemble effettuate durante la fase di assimilazione, così
 come le corse di previsione, relativamente alle sole prime ore di
