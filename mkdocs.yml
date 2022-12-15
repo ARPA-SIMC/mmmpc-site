@@ -3,7 +3,7 @@ google_analytics: null
 site_name: MMMPC
 site_url: https://lami.hpc.cineca.it/mmmpc
 site_dir: _build/html
-theme: spacelab
+theme: mkdocs
 use_directory_urls: false
 strict: true
 # [amelia|cyborg|cerulean|journal|readable|bootstrap|cosmo|united|mkdocs|spacelab|yeti|readthedocs|slate|simplex|flatly]
