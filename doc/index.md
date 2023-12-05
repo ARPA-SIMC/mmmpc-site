@@ -12,9 +12,9 @@ nell'ambito dell'accordo [LAMI](LAMI.md).
 ### Collegamenti rapidi ad altre sezioni del sito
 
  - [Pagina arkiweb di accesso sul server arkiweb del
-   Cineca](https://lami.hpc.cineca.it/arkiweb)
+   Cineca](https://lami.ext.cineca.it/arkiweb)
  - [Altre informazioni sulle catene operative, namelist,
-   etc.](https://lami.hpc.cineca.it/staticpriv/)
+   etc.](https://lami.ext.cineca.it/staticpriv/)
 
 Queste sezioni richiedono autenticazione.
 

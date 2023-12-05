@@ -17,7 +17,7 @@ specifica di una corsa modellistica.
 
 ### Accesso interattivo
 
-Dalla [pagina arkiweb di accesso](https://lami.hpc.cineca.it/arkiweb) è
+Dalla [pagina arkiweb di accesso](https://lami.ext.cineca.it/arkiweb) è
 possibile selezionare il dataset (o anche più di uno) che interessa tra
 quelli autorizzati (premere eventualmente *toggle disallowed datasets*
 per nascondere quelli non autorizzati), quindi premere *load selected
@@ -52,7 +52,7 @@ estrarre i dati di temperatura e vento dal dataset cosmo_5M_itr):
 curl -sgG \
  --data-urlencode "datasets[]=cosmo_5M_itr" \
  --data-urlencode "query=reftime:=yesterday 00:00; product: GRIB1,80,2,11 or GRIB1,80,2,33 or GRIB1,80,2,34;" \
- https://<user>:<password>@lami.hpc.cineca.it/services/arkiweb/data
+ https://<user>:<password>@lami.ext.cineca.it/services/arkiweb/data
 ```
 
 Per l'accesso ai dataset dei profili verticali simulati, ad esempio
@@ -65,7 +65,7 @@ curl -sgG \
  --data-urlencode "datasets[]=cosmo_5M_vprof" \
  --data-urlencode "query=reftime:=yesterday 00:00;" \
  --data-urlencode "postprocess=json -f dbajson" \
- https://<user>:<password>@lami.hpc.cineca.it/services/arkiweb/data
+ https://<user>:<password>@lami.ext.cineca.it/services/arkiweb/data
 ```
 
 Per una maggiore sicurezza si consiglia di non inserire username e
@@ -88,7 +88,7 @@ che soddisfano la richiesta al momento:
 curl -sgG \
  --data-urlencode "datasets[]=cosmo_5M_itr" \
  --data-urlencode "query=reftime:=yesterday 00:00; product: GRIB1,80,2,11 or GRIB1,80,2,33 or GRIB1,80,2,34;" \
- https://<user>:<password>@lami.hpc.cineca.it/services/arkiweb/fields | \
+ https://<user>:<password>@lami.ext.cineca.it/services/arkiweb/fields | \
  python -c 'import sys,json; print json.load(sys.stdin)["stats"]["c"]'
 ```
 
