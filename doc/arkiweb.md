@@ -77,7 +77,7 @@ Prima di scaricare i dati in maniera regolare e automatizzata, è
 opportuno accertarsi che siano già tutti disponibili, per evitare di
 scaricare blocchi di dati parziali.
 
-### Segnalazione di disponibilità dei dati
+### Verifica della disponibilità dei dati
 
 #### Via web API specifica
 
