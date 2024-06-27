@@ -8,5 +8,11 @@ l'intero Mediterraneo. Il volume dati per ogni singola corsa è
 notevole e si sconsiglia l'estrazione regolare di volumi
 tridimensionali completi da questo dataset.
 
-A causa di problemi di prestazioni del server, **al momento questo
-dataset non è disponibile**.
+Ad esso sono collegati i seguenti dataset:
+
+ * cosmo_5M_itr dati ai livelli superficiali e nativi del modello su
+   un'area italiana "ridotta" (sono escluse le isole minori)
+   indirizzato principalmente all'utilizzo con modelli numerici
+   tridimensionali di vario tipo in cascata.
+ * cosmo_5M_fcast_vprof [profili verticali](profili_verticali.md) per *radiosondaggi simulati*
+ * cosmo_5M_fcast_cross [profili verticali](profili_verticali.md) per cross-section
