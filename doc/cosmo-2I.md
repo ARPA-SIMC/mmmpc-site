@@ -46,6 +46,6 @@ vedere la descrizione nelle pagine relativa ai dataset
 [cosmo_2I_assim](cosmo_2I_assim.md), [cosmo_2I_fcruc](cosmo_2I_fcruc.md),
 [cosmo_2I_fcast](cosmo_2I_fcast.md) e [cosmo_2I_fcens](cosmo_2I_fcens.md). I
 dati delle corse a breve termine (+48 ore) sono disponibili anche via
-[ftp](ftp). I dati di stima di precipitazione radar del mosaico
+[ftp](ftp.md). I dati di stima di precipitazione radar del mosaico
 nazionale, interpolati sulla griglia di cosmo-2I, sono disponibili nel
 dataset [cosmo_2I_radar](cosmo_2I_radar.md).
