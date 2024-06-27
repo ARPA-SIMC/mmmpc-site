@@ -77,12 +77,45 @@ Prima di scaricare i dati in maniera regolare e automatizzata, è
 opportuno accertarsi che siano già tutti disponibili, per evitare di
 scaricare blocchi di dati parziali.
 
-Al momento non è ancora attivo un sistema di segnalazione della
-disponibilità delle corse, ma è possibile controllare se i dati sono
-disponibili accedendo al servizio arkiweb `fields` invece che al
-servizio `data`. Questo servizio restituisce un riassunto in formato
-json del risultato della richiesta, incluso il numero di messaggi grib
-che soddisfano la richiesta al momento:
+### Segnalazione di disponibilità dei dati
+
+#### Via web API specifica
+
+È disponibile una web API per verificare l'avvenuta importazione dei
+dataset:
+
+##### `check`
+
+```sh
+curl -s \
+ https://<user>:<password>@lami.ext.cineca.it/cgi-bin/imports/check/icon_2I_fcast/2024062700
+```
+
+restituisce una risposta `1` in plain-text se è già stato importato il
+reference time per il dataset specificati, `0` altrimenti (anche in
+caso di dataset insesistente).
+
+##### `checklast`
+
+```sh
+curl -s \
+ https://<user>:<password>@lami.ext.cineca.it/cgi-bin/imports/checklast/icon_2I_fcast
+```
+
+restituisce in plain-text, formato `YYYYmmddHHMM` il reference time
+dell'ultima corsa importata per il dataset specificato.
+
+In entrambi i casi, per corse modellistiche che popolano diversi
+dataset (es. `icon_2I_fcast` e `icon_2I_fcast_vprof`) c'è un unico
+segnale con il nome del dataset più breve.
+
+#### Via arkiweb
+
+In alternativa all'uso della web API specifica, è sempre possibile
+controllare se i dati sono disponibili accedendo al servizio arkiweb
+`fields` invece che al servizio `data`. Questo servizio restituisce un
+riassunto in formato json del risultato della richiesta, incluso il
+numero di messaggi grib che soddisfano la richiesta al momento:
 
 ```sh
 curl -sgG \
