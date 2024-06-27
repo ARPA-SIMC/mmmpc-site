@@ -56,7 +56,7 @@ curl -sgG \
 ```
 
 Per l'accesso ai dataset dei profili verticali simulati, ad esempio
-[cosmo_5M_vprof](cosmo_5M_vprof.md), che sono archiviati in formato bufr, si
+[icon_2I_fcast_vprof](icon_2I_fcast.md), che sono archiviati in formato bufr, si
 consiglia il postprocessing json, che si attiva da script come
 nell'esempio seguente:
 

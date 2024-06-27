@@ -15,8 +15,8 @@ non si trovino i dati dei dataset principali almeno mezz'ora dopo
 l'ora a cui sono solitamente disponibili.
 
 L'elenco completo dei dataset di backup è:
-[cosmo_5M_backup](cosmo_5M.md), [cosmo_5M_itr_backup](cosmo_5M_itr.md),
-[cosmo_5M_vprof_backup](cosmo_5M_vprof.md) e
+[cosmo_5M_backup](cosmo_5M.md), [cosmo_5M_itr_backup](cosmo_5M.md),
+[cosmo_5M_vprof_backup](cosmo_5M.md) e
 [cosmo_2I_fcast_backup](cosmo_2I_fcast.md).
 
 Le caratteristiche tecniche e il contenuto informativo dei dataset di

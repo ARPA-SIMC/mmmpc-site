@@ -43,5 +43,5 @@ via [arkiweb](arkiweb.md).
 
 È un'area che compre il territorio nazionale ridotto, disponibile solo
 via [arkiweb](arkiweb.md), vedere la descrizione nella pagina relativa al
-corrispondente dataset [cosmo_5M_itr](cosmo_5M_itr.md).
+corrispondente dataset [cosmo_5M_itr](cosmo_5M.md).
 
